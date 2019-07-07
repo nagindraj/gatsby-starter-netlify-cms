@@ -67,4 +67,10 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+pricing:
+  bank:
+    price: 0€
+    title: Bank Account
+  heading: Starter
 ---
+
