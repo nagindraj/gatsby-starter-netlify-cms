@@ -68,9 +68,24 @@ main:
     alt: Coffee beans
     image: /img/products-grid1.jpg
 pricing:
+  atm:
+    price: 0€
+    title: ATM Fees
   bank:
     price: 0€
     title: Bank Account
+  card:
+    price: 0€
+    title: Card order fee
   heading: Starter
+  reorder:
+    price: 9.50€
+    title: Card reorder fee
+  trading:
+    price: 1%
+    title: Trading fees
+  transaction:
+    price: 0€
+    title: Card Transactions
 ---
 
