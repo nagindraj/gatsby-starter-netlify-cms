@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
-import logo from '../img/logo.svg'
+import logo from '../img/bitwala-logo.svg'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -59,34 +58,36 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
-                About
-              </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
-              <Link className="navbar-item" to="/blog">
-                Blog
-              </Link>
-              <Link className="navbar-item" to="/contact">
-                Contact
-              </Link>
-              <Link className="navbar-item" to="/contact/examples">
-                Form Examples
-              </Link>
-            </div>
             <div className="navbar-end has-text-centered">
-              <a
-                className="navbar-item"
-                href="https://github.com/netlify-templates/gatsby-starter-netlify-cms"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="icon">
-                  <img src={github} alt="Github" />
-                </span>
-              </a>
+              <Link className="navbar-item">
+                Bank Account
+              </Link>
+              <Link className="navbar-item">
+                Trading
+              </Link>
+              <Link className="navbar-item">
+                Card
+              </Link>
+              <Link className="navbar-item">
+                Wallet
+              </Link>
+              <Link className="navbar-item">
+                Careers
+              </Link>
+              <Link className="navbar-item">
+                STO
+              </Link>
+              <label className="navbar-item">|</label>
+              <Link className="navbar-item">
+                EN
+              </Link>
+              <Link className="navbar-item">
+                DE
+              </Link>
+              <Link className="navbar-item">
+                Login
+              </Link>
+              <button>Free Account</button>
             </div>
           </div>
         </div>

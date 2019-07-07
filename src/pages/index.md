@@ -1,21 +1,16 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+title: Simple
+image: /img/speech-bubble.svg
 heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+subheading: Transparent Pricing
 mainpitch:
-  title: Why Kaldi
+  title: > 
+    Some ATM providers may charge their own fee. Foreign exchange fees might apply when paying in foreign currencies(non-EUR)
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    The minimum trade amount is €10 excluding bitcoin network fees.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Customers having an average of more than 50,000€ within a calendar month on their bank account are charged the current deposit facility rate set by the European Central Bank. The fee only applies in times of negative rate
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -67,4 +62,24 @@ main:
   image3:
     alt: Coffee beans
     image: /img/products-grid1.jpg
+pricing:
+  heading: Starter
+  bank:
+    title: Bank Account
+    price: €0
+  card:
+    title: Card order fee
+    price: €0
+  reorder:
+    title: Card reorder fee
+    price: €9.50
+  atm:
+    title: ATM Fees
+    price: €0
+  transaction:
+    title: Card Transactions
+    price: €0
+  trading:
+    title: Trading fees
+    price: 1%    
 ---
