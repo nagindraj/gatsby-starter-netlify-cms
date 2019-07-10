@@ -95,6 +95,10 @@ questions:
       text: >-
         Some ATM owners and independent providers(both locally and overseas)
         charge their own fees, and we can't control that.
+    - main: Do I need to let you know that I'm going abroad?
+      text: >-
+        No need! Use your card as usual and transactions will be converted into
+        EUR on your account and bank statement.
   heading: Three most frequently asked questions
 ---
 
