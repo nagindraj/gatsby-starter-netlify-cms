@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-
+import FeatureGrid from '../components/Features';
 import Layout from '../components/Layout'
 
 export const IndexPageTemplate = ({
@@ -11,7 +11,8 @@ export const IndexPageTemplate = ({
   mainpitch,
   description,
   intro,
-  pricing
+  pricing,
+  questions
 }) => (
   <div>
     <div
@@ -104,6 +105,9 @@ export const IndexPageTemplate = ({
             {mainpitch.description}
           </p>
     </div>
+    <div className="questions">
+          <FeatureGrid grid={questions}/>
+    </div>
   </div>
 )
 
@@ -116,7 +120,10 @@ IndexPageTemplate.propTypes = {
   intro: PropTypes.shape({
     blurbs: PropTypes.array,
   }),
-  pricing: PropTypes.object
+  pricing: PropTypes.object,
+  questions: PropTypes.shape({
+    Para: PropTypes.array
+  })
 }
 
 const IndexPage = ({ data }) => {
@@ -132,6 +139,7 @@ const IndexPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         pricing={frontmatter.pricing}
+        questions={frontmatter.questions}
       />
     </Layout>
   )
@@ -199,6 +207,13 @@ export const pageQuery = graphql`
             title
             price
           }
+        }
+        questions {
+          Para {
+            main
+            text
+          }
+          heading
         }
       }
     }

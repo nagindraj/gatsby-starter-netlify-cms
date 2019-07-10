@@ -1,27 +1,32 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
-const FeatureGrid = ({ gridItems }) => (
-  <div className="columns is-multiline">
-    {gridItems.map(item => (
-      <div key={item.text} className="column is-6">
-        <section className="section">
-          <div className="has-text-centered">
-            <div
-              style={{
-                width: '240px',
-                display: 'inline-block',
-              }}
-            >
-              <PreviewCompatibleImage imageInfo={item} />
+const FeatureGrid = ({ grid }) => (
+  <>
+    <div className="questions_heading">
+      {grid.heading}
+    </div>
+    <div className="columns is-multiline">
+      {grid.Para.map(item => (
+        
+        <div key={item.text} className="column is-3">
+          <section className="section">
+            <div className="has-text-bold">
+              <div
+                style={{
+                  width: '240px',
+                  display: 'inline-block',
+                }}
+              >
+              {item.main}
+              </div>
             </div>
-          </div>
-          <p>{item.text}</p>
-        </section>
-      </div>
-    ))}
-  </div>
+            <p className="question_text">{item.text}</p>
+          </section>
+        </div>
+      ))}
+    </div>
+  </>
 )
 
 FeatureGrid.propTypes = {
