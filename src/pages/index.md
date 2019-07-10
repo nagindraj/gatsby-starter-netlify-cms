@@ -91,6 +91,10 @@ questions:
       text: >-
         You'll get master cards's exchange rate. We don't change anything on
         top.
+    - main: You stated zero ATM fees but I was charged. What happened?
+      text: >-
+        Some ATM owners and independent providers(both locally and overseas)
+        charge their own fees, and we can't control that.
   heading: Three most frequently asked questions
 ---
 
