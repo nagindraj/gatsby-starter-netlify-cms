@@ -5,12 +5,15 @@ image: /img/speech-bubble.svg
 heading: Great coffee with a conscience
 subheading: Transparent Pricing
 mainpitch:
-  title: > 
-    Some ATM providers may charge their own fee. Foreign exchange fees might apply when paying in foreign currencies(non-EUR)
-  description: >
+  title: >
+    Some ATM providers may charge their own fee. Foreign exchange fees might
+    apply when paying in foreign currencies(non-EUR)
+  description: |
     The minimum trade amount is €10 excluding bitcoin network fees.
 description: >-
-  Customers having an average of more than 50,000€ within a calendar month on their bank account are charged the current deposit facility rate set by the European Central Bank. The fee only applies in times of negative rate
+  Customers having an average of more than 50,000€ within a calendar month on
+  their bank account are charged the current deposit facility rate set by the
+  European Central Bank. The fee only applies in times of negative rate
 intro:
   blurbs:
     - image: /img/coffee.png
@@ -82,5 +85,12 @@ pricing:
   transaction:
     price: 0€
     title: Card Transactions
+questions:
+  Para:
+    - main: How do I know which exchange rate I'm going to get with my card?
+      text: >-
+        You'll get master cards's exchange rate. We don't change anything on
+        top.
+  heading: Three most frequently asked questions
 ---
 
